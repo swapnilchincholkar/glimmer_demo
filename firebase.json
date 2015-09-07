@@ -1,0 +1,9 @@
+{
+  "firebase": "demo_users",
+  "public": "./dist",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

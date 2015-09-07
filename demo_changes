@@ -1,0 +1,17 @@
+DEMO changes to be shown:
+
+Render VS insert changes
+i. lib/get-data changes for randon names & consistent names
+
+ii. component/view=data.hbs changes for loop over marks or loop over component's val
+{{#each userMarks as |mark|}} for component
+{{#each usr.marks as |mark|}} for simple loop
+
+
+VERSIO CHANGES in bower.json
+OLD VERSION
+"ember": "1.12"
+
+
+NEW VERSION when glimmer released
+"ember": "1.13.0-beta.2"

@@ -1,0 +1,9 @@
+<div>
+  <table class="table latest-data">
+    <tbody>
+      {{#each model.users key='name' as |usr|}}
+        {{view-user usr=usr}}
+      {{/each}}
+  </tbody>
+  </table>
+</div>
